@@ -1,20 +1,59 @@
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('background.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
     text-align: center;
+}
+
+.container {
+    padding: 20px;
+}
+
+nav {
+    background: teal;
+    padding: 15px;
+    border-radius: 20px;
+    width: 80%;
+    margin: 10px auto;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 nav ul li {
     display: inline;
-    margin: 10px;
+    margin: 0 15px;
 }
 
 nav ul li a {
     text-decoration: none;
     font-weight: bold;
-    color: blue;
+    color: #f5f5dc; /* Cream */
+    font-size: 18px;
 }
+
+.dictionary-list {
+    list-style: none;
+    padding: 0;
+}
+
+.dictionary-list li {
+    margin: 10px 0;
+}
+
+.dictionary-list a {
+    text-decoration: none;
+    font-weight: bold;
+    color: teal;
+}
+
+.dictionary-list a:hover {
+    color: darkcyan;
+}
+
